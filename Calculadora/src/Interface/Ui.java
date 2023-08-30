@@ -4,13 +4,16 @@ import java.util.Scanner;
 
 public class Ui {
     static Scanner ler = new Scanner(System.in);
-    public int menu() {
-        System.out.println("Escolha uma opcao");
-        System.out.println("1. Somar");
-        System.out.println("2. Subtrair");
-        System.out.println("3. Multiplicar");
-        System.out.println("4. Divisao");
-        return ler.nextInt();
+
+    public String menu() {
+        return "Escolha uma opcao\n" +
+                "1. Somar\n" +
+                "2. Subtrair\n" +
+                "3. Multiplicar\n" +
+                "4. Divisao\n" +
+                "5. Potencia\n" +
+                "6. Raiz Quadrada\n" +
+                "0. Sair";
 
     }
 }

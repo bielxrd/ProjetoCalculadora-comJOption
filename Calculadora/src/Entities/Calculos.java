@@ -11,5 +11,27 @@ public class Calculos extends Calculator {
         return getResult();
 
     }
+    public Double subtrair() {
+        setResult(getN1() - getN2());
+        return getResult();
+    }
+    public Double multiplicar() {
+        setResult(getN1() * getN2());
+        return getResult();
+
+    }
+    public Double dividir() {
+        setResult(getN1() / getN2());
+        return getResult();
+
+    }
+    public Double potencia(int potencia) {
+        setResult(Math.pow(getN1(), potencia));
+        return getResult();
+    }
+    public Double raizQuadrada() {
+        setResult(Math.sqrt(getN1()));
+        return getResult();
+    }
 
 }
