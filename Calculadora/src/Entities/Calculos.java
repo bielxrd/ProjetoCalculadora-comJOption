@@ -25,8 +25,8 @@ public class Calculos extends Calculator {
         return getResult();
 
     }
-    public Double potencia(int potencia) {
-        setResult(Math.pow(getN1(), potencia));
+    public Double potencia() {
+        setResult(Math.pow(getN1(), getN2()));
         return getResult();
     }
     public Double raizQuadrada() {
