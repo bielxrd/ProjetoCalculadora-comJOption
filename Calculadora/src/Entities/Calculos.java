@@ -1,6 +1,6 @@
 package Entities;
 
-public class Calculos extends Calculator {
+public class Calculos extends Calculadora {
 
     public Calculos(Double n1, Double n2) {
         super(n1, n2);

@@ -1,13 +1,13 @@
 package Entities;
 
-public class Calculator {
+public class Calculadora {
     private Double n1;
     private Double n2;
     private Double result;
 
     
 
-    public Calculator(Double n1, Double n2) {
+    public Calculadora(Double n1, Double n2) {
         this.n1 = n1;
         this.n2 = n2;
         
